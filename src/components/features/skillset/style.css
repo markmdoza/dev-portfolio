@@ -1,0 +1,53 @@
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-wrapper span{
+  cursor: default;
+  padding: 6px;
+  margin: 4px;
+  border-radius: 2px; 
+  font-weight: 300;
+  border: 1px solid #333333;
+  background-color: #232323;
+  box-shadow: 0 2px 3px #00003d;
+  color: #BBBBBB;
+  letter-spacing: 1px;
+  font-family: __inter_Fallback_20b187,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "system-ui",
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    Segoe UI Symbol,
+    "Noto Color Emoji";;
+}
+
+/* @media screen and (min-width: 1024px) {
+  .socials-link:hover {
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+    border-bottom: 3px solid var(--color-green);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .socials-wrapper {
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+} */
+
+@media screen and (max-width: 650px) {
+  .skills-wrapper span {
+    padding: 6px;
+  }
+}
